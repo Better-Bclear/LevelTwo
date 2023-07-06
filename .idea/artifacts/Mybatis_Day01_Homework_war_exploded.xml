@@ -24,6 +24,7 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.4" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.4" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.4" />
+          <element id="library" level="project" name="Maven: cn.hutool:hutool-all:5.8.20" />
         </element>
       </element>
       <element id="directory" name="META-INF">
