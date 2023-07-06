@@ -21,6 +21,7 @@
                 <setting name="localCacheScope" value="STATEMENT"/>
         -->
         <setting name="localCacheScope" value="SESSION"/>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
 
 <!--    <typeAliases>-->
@@ -57,6 +58,7 @@
     </environments>
 
     <mappers>
+        <mapper resource="mapper/UserMapper.xml"/>
 
     </mappers>
 

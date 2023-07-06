@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Mybatis_Day01_Homework:war exploded">
+    <output-path>$PROJECT_DIR$/Mybatis_Day01_Homework/target/Mybatis_Day01_Homework</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Mybatis_Day01_Homework</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Mybatis_Day01_Homework" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.mysql:mysql-connector-j:8.0.33" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.21.9" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.12" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.15.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.50" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:9.0.50" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.4" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.4" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Mybatis_Day01_Homework/target/Mybatis_Day01_Homework/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Mybatis_Day01_Homework/web/Web" />
+    </root>
+  </artifact>
+</component>
