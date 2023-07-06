@@ -38,6 +38,7 @@ public class UserServiceImpl implements UserService {
             sqlSession.commit();
         }catch (Exception e){
             e.printStackTrace();
+            sqlSession.rollback();
         }
     }
 
@@ -57,8 +58,13 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void removeById(int id) {
-        userMapper.deleteById(id);
-        sqlSession.commit();
+        try {
+            userMapper.deleteById(id);
+            sqlSession.commit();
+        }catch (Exception e){
+            e.printStackTrace();
+            sqlSession.rollback();
+        }
     }
 
     @Override
