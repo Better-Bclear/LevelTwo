@@ -4,6 +4,11 @@
     <file type="web" url="file://$PROJECT_DIR$/Maven_Day01" />
     <file type="web" url="file://$PROJECT_DIR$/Mybatis_Day01" />
     <file type="web" url="file://$PROJECT_DIR$/Mybatis_Day01_Homework" />
+    <file type="web" url="file://$PROJECT_DIR$/MyBatis_Day02" />
+    <file type="web" url="file://$PROJECT_DIR$/Mybatis_Day02_HomeWork" />
+    <file type="web" url="file://$PROJECT_DIR$/MyBatis_Day03_HomeWork" />
+    <file type="web" url="file://$PROJECT_DIR$/Mybatis_Day2_Homework" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Day01" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -11,6 +16,12 @@
         <option value="$PROJECT_DIR$/Maven_Day01/pom.xml" />
         <option value="$PROJECT_DIR$/Mybatis_Day01/pom.xml" />
         <option value="$PROJECT_DIR$/Mybatis_Day01_Homework/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis_Day02/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis_Day02_HomeWork/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis_Day2_Homework/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis_Day03_HomeWork/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis_Day03_HomeWork/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Day01/pom.xml" />
       </list>
     </option>
   </component>

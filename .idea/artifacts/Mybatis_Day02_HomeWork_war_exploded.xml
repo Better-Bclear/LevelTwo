@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Mybatis_Day02_HomeWork:war exploded">
+    <output-path>$PROJECT_DIR$/Mybatis_Day02_HomeWork/target/Mybatis_Day02_HomeWork</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Mybatis_Day02_HomeWork</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Mybatis_Day02_HomeWork" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.mysql:mysql-connector-j:8.0.33" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.21.9" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.12" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.15.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.50" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:9.0.50" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.4" />
+          <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus-core:3.4.0" />
+          <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus-annotation:3.4.0" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:3.2" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.5" />
+          <element id="library" level="project" name="Maven: cn.hutool:hutool-all:5.8.20" />
+          <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus-extension:3.4.0" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:2.0.5" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Mybatis_Day02_HomeWork/target/Mybatis_Day02_HomeWork/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Mybatis_Day02_HomeWork/web/Web" />
+    </root>
+  </artifact>
+</component>

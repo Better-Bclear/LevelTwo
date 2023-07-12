@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baizhi.jinzhanqing.dao.StudentDao">
+    <resultMap id="Student" type="Student">
+        <id property="id" column="stu_id"/>
+        <result column="stu_name" property="name"/>
+        <collection property="course" javaType="java.util.List" ofType="Course">
+            <id column="cou_id" property="id"/>
+            <result column="cou_name" property="name"/>
+        </collection>
+    </resultMap>
+    <select id="queryAll" resultMap="Student">
+        select s.id stu_id, s.name stu_name, c.id cou_id, c.name cou_name
+        from mybatis_practice.student s
+        join student_course sc on s.id = sc.s_id
+        join course c  on sc.c_id=c.id
+    </select>
+    <delete id="deleteRelation" parameterType="int">
+        delete from student_course where s_id = #{id}
+    </delete>
+    <delete id="deleteStudent" parameterType="int">
+        delete from mybatis_practice.student where id = #{id}
+    </delete>
+</mapper>

@@ -7,15 +7,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Maven_Day01" />
         <module name="Mybatis_Day01" />
         <module name="Mybatis_Day01_Homework" />
+        <module name="Mybatis_Day2_Homework" />
+        <module name="Spring_Day01" />
+        <module name="Mybatis_Day02_HomeWork" />
+        <module name="MyBatis_Day03_HomeWork" />
+        <module name="Maven_Day01" />
+        <module name="MyBatis_Day02" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="Maven_Day01" target="1.8" />
       <module name="Mybatis_Day01" target="1.8" />
       <module name="Mybatis_Day01_Homework" target="1.7" />
+      <module name="MyBatis_Day02" target="1.7" />
+      <module name="Mybatis_Day02_HomeWork" target="1.7" />
+      <module name="MyBatis_Day03_HomeWork" target="8" />
+      <module name="Mybatis_Day2_Homework" target="1.7" />
+      <module name="Spring_Day01" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

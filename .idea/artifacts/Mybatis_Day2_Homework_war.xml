@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Mybatis_Day2_Homework:war">
+    <output-path>$PROJECT_DIR$/Mybatis_Day2_Homework/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Mybatis_Day2_Homework</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Mybatis_Day2_Homework.war">
+      <element id="artifact" artifact-name="Mybatis_Day2_Homework:war exploded" />
+    </root>
+  </artifact>
+</component>

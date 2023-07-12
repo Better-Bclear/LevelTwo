@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.containers {
+    width: 100%;
+    height: 100%;
+}
+
+/* 标题头 */
+.containers-header {
+    padding-top: 8px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containers-header div {
+    width: 230px;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* 内容部分 */
+.containers-connet {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.containers-connet div {
+    width: 40%;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gainsboro;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+
+
+/* 第一个盒子内容区域 销售曲线 */
+#sales {
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow: hidden;
+}
+
+
+
+/* 第二个盒子内容区域 新增用户曲线*/
+#users {
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow: hidden;
+}
+
+/* 第三个盒子内容区域 待补货商品列表*/
+#brandList {
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#brandList th {
+    text-align: center;
+}
+
+/* 第四个盒子内容区域 热卖商品排行榜*/
+#ranking {
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#ranking th {
+    text-align: center;
+}
